@@ -1,0 +1,182 @@
+/* BACKGROUND */
+
+.background{
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-position: center;
+    background-color: #9C835F;
+    background-attachment: scroll;
+    height: auto;
+    width: 100%;
+}
+
+/* TEXT */
+
+.navbar-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #F9B23D;
+}
+
+.versus-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    display: block;
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #BD0000;
+}
+
+/* NAVBAR */
+
+.margin{
+    margin-bottom: 30px;
+}
+
+.icon-size{
+    width: 72px;
+    height: 72px;
+}
+
+.arrow{
+    border: solid #724C21;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.arrow-position{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50px;
+    top: 42px;
+}
+
+.icon-position{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 119px;
+    top: 27px;
+}
+
+.header-position{
+    position: absolute;
+    /* width: 410px; */
+    height: 62px;
+    left: 218px;
+    top: 40px;
+}
+
+.pad-bottom{
+    margin-bottom:  30px;
+    padding-bottom: 30px;
+}
+
+/* CENTER DIV */
+.player-win {
+    display: none;
+    position: relative;
+    width: 296px;
+    height: 186px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    transform: rotate(-31deg);
+  }
+  
+  .bot-win {
+    display: none;
+    position: relative;
+    width: 296px;
+    height: 186px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: #bd0000;
+    transform: rotate(31deg);
+  }
+  
+  .draw {
+    display: none;
+    position: relative;
+    width: 296px;
+    height: 186px;
+    padding: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+  }
+
+/* RPS */
+
+.resize{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.resize-kertas{
+    max-width: 18%;
+    max-height: 18%;
+}
+
+.re-resize{
+    max-width: 8%;
+    max-height: 8%;
+}
+
+.suit-icon.batu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 128px;
+    height: 92px;
+  }
+  
+  .suit-icon.gunting {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 134px;
+    height: 160px;
+  }
+  
+  .suit-icon.kertas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 115px;
+    height: 150px;
+  }
+
+.player.active {
+    background-color: #c4c4c4;
+    border-radius: 30px;
+  }
+  
+.bot.active {
+   background-color: #c4c4c4;
+   border-radius: 30px;
+ }

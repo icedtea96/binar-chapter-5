@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Public/css/gamesuitstyling.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body class="background">
+
+    <div class="position-relative">
+        <!-- HEADER -->
+
+        <div class="margin">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container margin">
+                    <a href="#" class="navbar-brand"><i class="arrow left arrow-position"></i></a>
+                    <a href="#" class="nav-item nav-link active"><img src="Public/assets/suit-icon.png" class="icon-size icon-position" alt="suit-icon"></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <p class="navbar-text header-position">ROCK PAPER SCISSORS</p>
+                </div>
+            </nav>
+        </div>
+
+        <!-- GAME -->
+
+        <div class="container my-auto">
+            <div class="row col-lg-12">
+
+                <!-- RPS PEMAIN -->
+
+                <div class="col-md-5 align-middle">
+                    <div class="row col-12 my-5 text-center">
+                        <h3>PLAYER</h3>
+                    </div>
+                    <div class="row col-12 mx-auto my-5 resize player batu">
+                        <input type="image" src="Public/assets/batu.png" name="batu-player" alt="batu-player" id="batu-player">
+                    </div>
+        
+                    <div class="row col-12 mx-auto my-5 resize player gunting">
+                        <input type="image" src="Public/assets/gunting.png" name="gunting-player" alt="gunting-player" id="gunting-player">
+                    </div>
+        
+                    <div class="row col-12 mx-auto my-5 resize-kertas player kertas">
+                        <input type="image" src="Public/assets/kertas.png" name="kertas-player" alt="kertas-player" id="kertas-player">
+                    </div>
+                </div>
+
+                <!-- PEMISAH -->
+
+                <div class="col-md-2 versus-text align-middle my-auto">
+                    <p><strong>VS</strong></p>
+                </div>
+
+                <!-- RPS KOMPUTER -->
+
+                <div class="col-md-5">
+                    <div class="row col-12 my-5 text-center">
+                       <h3>COMPUTER</h3>
+                    </div>
+    
+                    <div class="row col-12 mx-auto my-5 resize batu">
+                       <img src="Public/assets/batu.png" name="batu-com" alt="batu-com" id="batu-com">
+                    </div>
+    
+                    <div class="row col-12 mx-auto my-5 resize gunting">
+                       <img src="Public/assets/gunting.png" name="gunting-com" alt="gunting-com" id="gunting-com">
+                    </div>
+    
+                    <div class="row col-12 mx-auto my-5 resize-kertas kertas">
+                        <img src="Public/assets/kertas.png" name="kertas-com" alt="kertas-com" id="kertas-com">
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESET -->
+
+            <div class="row col-lg-12 mx-auto re-resize">
+                <input type="image" src="Public/assets/refresh.png" name="refresh" alt="refresh" id="refresh">
+            </div>
+        </div>
+    </div>
+
+    <script src="Public/js/gamesuit.js"></script>
+
+</body>
+
+</html>

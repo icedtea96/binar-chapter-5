@@ -1,0 +1,137 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* BACKGROUND */
+
+  .background-image{
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    position: static;
+    height: 140vh;
+    width: auto;
+ }
+
+ .bg1{
+    background-image: url(../assets/main-bg.jpg);
+ }
+ .bg2{
+    background-image: url(../assets/the-games-bg.jpg);
+ }
+ #bg3{
+    background-image: url(../assets/features.jpg);
+ }
+ #bg4{
+    background-image: url(../assets/requirements.png);
+ }
+ #bg5{
+    background-image: url(../assets/top-score-bg.png);
+ }
+ #bg6{
+    background-image: url(../assets/newsletter.png);
+ }
+ 
+ /* FONT */
+
+ .font1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .level-center {
+   display: inline-block;
+    position: relative;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ /* LANDING PAGE */
+
+ .main-button {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 1rem 3rem 1rem 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  }
+
+ .arrow {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 40px; 
+    height: 30px;
+ }
+
+ .button-center {
+  margin: 3% 0 0 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.zindex{
+   z-index: 1;
+}
+
+/* FEATURE PAGE */
+
+/* TIMELINE PAGE*/
+
+/* SYSREQ PAGE */
+
+.sysreq-table{
+   width: 380px;
+}
+
+.padding{
+  padding-left: 45vw;
+  padding-right: 0vw;
+  padding-top: 15vh;
+  padding-bottom: 0vh;
+}
+
+/* TOP SCORE PAGE */
+
+/* NEWSLETTER PAGE */
+
+.img-skull{
+   float: left;
+   height: 40%;
+   width: 40%;
+   margin: 0 10px 0 0;
+}
+
+.newsletter-text{
+   color: white;
+   text-align: justify;
+   padding: 0 0 15px 0;
+}
+
+input[type=text] {
+   width: 300px;
+   padding: 3px;
+   float: left;
+   border: 1px solid #ccc;
+ }
+
+ input[type=submit]{
+   width: 80px;
+   height: 40px;
+   padding: 1px;
+   margin-left: 10px;
+   background-color: #ffb548;
+   border: 1px solid black;
+ }
